@@ -1,7 +1,17 @@
-Your Task
+The goal of this assignment was to learn about this type of database and different ways of working with it. This was accomplished by building a simple Django server that uses MPTT models from django-mptt to create a Dropbox-esque web interface where you can create "folders" and "files" in an arbitrary structure and then display that structure. We didn't actually upload anything, just made model instances and used them to represent real data.
 
-The goal of this assignment is to learn about this type of database and different ways of working with it. Build a simple Django server that uses MPTT models from django-mptt to create a Dropbox-esque web interface where you can create "folders" and "files" in an arbitrary structure and then display that structure. We won't actually be uploading anything, just making model instances and using them to represent real data. See the rubric for more detailed information. Submit as link to your repo on Github.
+Steps:
 
-Resources:
+Clone this repo to your local machine.
 
-https://django-mptt.readthedocs.io/en/latest/overview.html (Links to an external site.)Links to an external site.
+Poetry install.
+
+Poetry shell.
+
+Python manage.py createsuperuser.
+
+Python manage.py makemigrations.
+
+Python manage.py migrate.
+
+Python manage.py runserver.
